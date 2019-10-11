@@ -43,16 +43,16 @@ para obtener el tiempo (en segundos) que se demora el computador en ejecutar el 
 y se saco un promedio de estos 3 tiempos.
 
 Tiempo por cada numero de particulas:
-- Para una particula: tiempo = 0,327
--para dos particula --> tiempo = 1,081
--para tres particula --> tiempo = 2,493
--para cuatro particula --> tiempo = 3,845
--para cinco particula --> tiempo = 6,882
--para seis particula --> tiempo = 12,479
--para siete particula --> tiempo = 18,144
--para ocho particula --> tiempo = 22,926
--para nueve particula --> tiempo = 32,81
--para diez particula --> tiempo = 38,374
+- Para una particula --> tiempo = 0,327
+- Para dos particula --> tiempo = 1,081
+- Para tres particula --> tiempo = 2,493
+- Para cuatro particula --> tiempo = 3,845
+- Para cinco particula --> tiempo = 6,882
+- Para seis particula --> tiempo = 12,479
+- Para siete particula --> tiempo = 18,144
+- Para ocho particula --> tiempo = 22,926
+- Para nueve particula --> tiempo = 32,81
+- Para diez particula --> tiempo = 38,374
 
 los graficos anteriores representan el movimiento bidimencional durante 0,5 segundos de particulas ubicadas en el fondo de un rio, las cuales son desplazadas por accion del agua que va corriendo por dicho rio. Algunas veces, se puede observar que las particulas cmabian so trayectoria drasticamente, lo cual se debe a que en ese punto ocurrio un choque entre particulas. A nivel de codigo, esto se representa con una fuerza k_penal, la cual vendria siendo una constante de penalizacion.......
 Para el caso de las mejoras del computador con respecto a la velocidad de ejecucion del codigo, podriamos implementar otro tipo de integracion. Para la segunda entrega, el metodo que se utilizo para integrar los parametros de las posiciones y las velocidades fue el metodo de Euler, y para la tercera entrega, el metodo de integracion que se utilizo fue odeint.
