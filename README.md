@@ -42,6 +42,7 @@ Comportamiento del computador con respecto a la variacion del numero de particul
 para obtener el tiempo (en segundos) que se demora el computador en ejecutar el codigo y entregar el grafico, se corrio el codigo 3 veces por cada numero de particulas (particula 1 --> 3 resultados de tiempo, particula 2 --> 3 resultados de tiempo, particula 3...)
 y se saco un promedio de estos 3 tiempos.
 
+Tiempo por cada numero de particulas:
 -para una particula --> tiempo = 0,327
 -para dos particula --> tiempo = 1,081
 -para tres particula --> tiempo = 2,493
