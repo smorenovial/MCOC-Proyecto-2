@@ -43,7 +43,7 @@ para obtener el tiempo (en segundos) que se demora el computador en ejecutar el 
 y se saco un promedio de estos 3 tiempos.
 
 Tiempo por cada numero de particulas:
--Para una particula: tiempo = 0,327
+- Para una particula: tiempo = 0,327
 -para dos particula --> tiempo = 1,081
 -para tres particula --> tiempo = 2,493
 -para cuatro particula --> tiempo = 3,845
