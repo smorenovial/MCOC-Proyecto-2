@@ -39,21 +39,27 @@ Caracteristicas del computador:
 - Edicion de WIndows: Windows 10 Pro
 
 Comportamiento del computador con respecto a la variacion del numero de particulas que se simulan:
-para obtener el tiempo (en segundos) que se demora el computador en ejecutar el codigo y entregar el grafico, se corrio el codigo 3 veces por cada numero de particulas (particula 1 --> 3 resultados de tiempo, particula 2 --> 3 resultados de tiempo, particula 3...)
-y se saco un promedio de estos 3 tiempos.
+para obtener el tiempo (en segundos) que se demora el computador en ejecutar el codigo y entregar el grafico, se corrio el codigo para 2,5 ,10 y 20 particulas.
 
 Tiempo por cada numero de particulas:
-- Para una particula --> tiempo = 0,327
-- Para dos particula --> tiempo = 1,081
-- Para tres particula --> tiempo = 2,493
-- Para cuatro particula --> tiempo = 3,845
-- Para cinco particula --> tiempo = 6,882
-- Para seis particula --> tiempo = 12,479
-- Para siete particula --> tiempo = 18,144
-- Para ocho particula --> tiempo = 22,926
-- Para nueve particula --> tiempo = 32,81
-- Para diez particula --> tiempo = 38,374
+- Para dos particulas --> tiempo = 
+- Para cinco particulas --> tiempo = 
+- Para diez particulas --> tiempo = 
+- Para veinte particulas --> tiempo = 
+
+
 
 los graficos anteriores representan el movimiento bidimencional durante 0,5 segundos de particulas ubicadas en el fondo de un rio, las cuales son desplazadas por accion del agua que va corriendo por dicho rio. Algunas veces, se puede observar que las particulas cmabian so trayectoria drasticamente, lo cual se debe a que en ese punto ocurrio un choque entre particulas. A nivel de codigo, esto se representa con una fuerza k_penal, la cual vendria siendo una constante de penalizacion.......
 Para el caso de las mejoras del computador con respecto a la velocidad de ejecucion del codigo, podriamos implementar otro tipo de integracion. Para la segunda entrega, el metodo que se utilizo para integrar los parametros de las posiciones y las velocidades fue el metodo de Euler, y para la tercera entrega, el metodo de integracion que se utilizo fue odeint.
 para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva libreria, la cual nos permita integrar mas rapidamente los parametrod de velocidad y posicion de cada particula, para que asi el comoputador sea capaz de procesar los datos mas rapidamente.
+
+# Analisis de resultados:
+
+Los resultados que nos entrega el codigo no son del todo correctos, ya que en este no se consideran todas las fuerzas que se aplican en la realidad a este tipo de casos ( movimiento de particulas del fondo de un rio).
+* fuerzas que se aplican en el codigo:
+   * fuerza de gravedad
+   * fuerza de arrastre (drag)
+   * fuerza de sustentacion (lift)
+   * fuerza boyante
+   
+
