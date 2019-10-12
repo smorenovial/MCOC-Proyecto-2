@@ -54,13 +54,11 @@ Tiempo por cada numero de particulas:
 
 ![graf_10p](https://user-images.githubusercontent.com/53713496/66691850-aed17b80-ec6f-11e9-91ec-de087c9c75fc.png)
 
-- Para veinte particulas --> tiempo = 
+- Para veinte particulas --> tiempo = sin registros.
 
+Para el caso de 20 particula, el computador no fue capaz de arrogar resultado alguno. 
 
-
-los graficos anteriores representan el movimiento bidimencional durante 0,5 segundos de particulas ubicadas en el fondo de un rio, las cuales son desplazadas por accion del agua que va corriendo por dicho rio. Algunas veces, se puede observar que las particulas cmabian so trayectoria drasticamente, lo cual se debe a que en ese punto ocurrio un choque entre particulas. A nivel de codigo, esto se representa con una fuerza k_penal, la cual vendria siendo una constante de penalizacion.......
-Para el caso de las mejoras del computador con respecto a la velocidad de ejecucion del codigo, podriamos implementar otro tipo de integracion. Para la segunda entrega, el metodo que se utilizo para integrar los parametros de las posiciones y las velocidades fue el metodo de Euler, y para la tercera entrega, el metodo de integracion que se utilizo fue odeint.
-para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva libreria, la cual nos permita integrar mas rapidamente los parametrod de velocidad y posicion de cada particula, para que asi el comoputador sea capaz de procesar los datos mas rapidamente.
+los graficos anteriores representan el movimiento bidimencional durante 0,5 segundos de particulas ubicadas en el fondo de un rio. El eje "X" de los graficos corresponde al movimiento horizontal de las particulas, y el eje "Y" corresponde al movimiento vertical de ellas, las cuales son desplazadas por accion del agua que va fluyendo por dicho rio. Algunas veces, se puede observar que las particulas cambian so trayectoria drasticamente, lo cual se debe a que en ese punto ocurrio un choque entre particulas. A nivel de codigo, esto se representa con una fuerza k_penal, la cual vendria siendo una constante de penalizacion que se comporta como la fuerza de un rezorte que actua sobre cada particula.
 
 # Analisis de resultados:
 
@@ -70,5 +68,11 @@ Los resultados que nos entrega el codigo no son del todo correctos, ya que en es
    * fuerza de arrastre (drag)
    * fuerza de sustentacion (lift)
    * fuerza boyante
-   
+
+# Mejoras en el rendimiento:
+
+Para el caso de las mejoras del computador con respecto a la velocidad de ejecucion del codigo, podriamos implementar otro tipo de integracion. Para la segunda entrega, el metodo que se utilizo para integrar los parametros de las posiciones y las velocidades fue el metodo de Euler, y para la tercera entrega, el metodo de integracion que se utilizo fue odeint.
+para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva libreria, la cual nos permita integrar mas rapidamente los parametrod de velocidad y posicion de cada particula, para que asi el comoputador sea capaz de procesar los datos mas rapidamente.
+
+# Resultados del profesor:
 
