@@ -89,4 +89,4 @@ para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva l
 
 * Para veinte particulas:
 
-
+![particle_trajectories](https://user-images.githubusercontent.com/53713496/66692219-a464b100-ec72-11e9-93c6-674eb51201a7.png)
