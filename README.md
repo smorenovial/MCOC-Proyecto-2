@@ -1,4 +1,4 @@
-# MCOC-Proyecto-2 (individual)
+# MCOC-Proyecto-2 entrega 4 (individual)
 # INTRODUCCION:
 En este proyecto se implementará y validará un modelo de simulación de transporte de
 sedimentos en base a un método lagrangiano, es decir que sigue a cada partícula individualmente.
