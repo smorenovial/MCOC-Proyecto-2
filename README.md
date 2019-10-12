@@ -35,13 +35,14 @@ Caracteristicas del computador:
 - Marca: HP
 - Procesador: Intel(R) Core(TM) i3-31100M CPU @ 2.40GHz
 - Memoria instalada (RAM): 4.00 GB (3,89 GB utilizable)
-- Tipo de sistema: SIstema operativo de 64 bits,procesador x64
-- Edicion de WIndows: Windows 10 Pro
+- Tipo de sistema: Sistema operativo de 64 bits, procesador x64
+- Edicion de Windows: Windows 10 Pro
 
 Comportamiento del computador con respecto a la variacion del numero de particulas que se simulan:
-para obtener el tiempo (en segundos) que se demora el computador en ejecutar el codigo y entregar el grafico, se corrio el codigo para 2,5 ,10 y 20 particulas.
+Para obtener el tiempo (en segundos) que se demora el computador en ejecutar el codigo y entregar el grafico, se corrio el codigo para 2, 5, 10 y 20 particulas.
 
 Tiempo por cada numero de particulas:
+
 - Para dos particulas --> tiempo = 2,671
 
 ![graf_2p](https://user-images.githubusercontent.com/53713496/66691879-f5bf7100-ec6f-11e9-84a1-bc7a3cb8cf8f.png)
@@ -58,7 +59,7 @@ Tiempo por cada numero de particulas:
 
 Para el caso de 20 particula, el computador no fue capaz de arrogar resultado alguno. 
 
-los graficos anteriores representan el movimiento bidimencional durante 0,5 segundos de particulas ubicadas en el fondo de un rio. El eje "X" de los graficos corresponde al movimiento horizontal de las particulas, y el eje "Y" corresponde al movimiento vertical de ellas, las cuales son desplazadas por accion del agua que va fluyendo por dicho rio. Algunas veces, se puede observar que las particulas cambian so trayectoria drasticamente, lo cual se debe a que en ese punto ocurrio un choque entre particulas. A nivel de codigo, esto se representa con una fuerza k_penal, la cual vendria siendo una constante de penalizacion que se comporta como la fuerza de un rezorte que actua sobre cada particula.
+Los graficos anteriores representan el movimiento bidimencional durante 0,5 segundos de particulas ubicadas en el fondo de un rio. El eje "X" de los graficos corresponde al movimiento horizontal de las particulas, y el eje "Y" corresponde al movimiento vertical de ellas, las cuales son desplazadas por accion del agua que va fluyendo por dicho rio. Algunas veces, se puede observar que las particulas cambian so trayectoria drasticamente, lo cual se debe a que en ese punto ocurrio un choque entre particulas. A nivel de codigo, esto se representa con una fuerza k_penal, la cual vendria siendo una constante de penalizacion que se comporta como la fuerza de un rezorte que actua sobre cada particula.
 
 # Analisis de resultados:
 
