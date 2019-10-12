@@ -45,6 +45,9 @@ Tiempo por cada numero de particulas:
 - Para dos particulas --> tiempo = 2,671
 
 - Para cinco particulas --> tiempo = 29,564
+
+![graf_5p](https://user-images.githubusercontent.com/53713496/66691874-e809eb80-ec6f-11e9-9988-d880bf3288bf.png)
+
 - Para diez particulas --> tiempo = 15,52
 
 ![graf_10p](https://user-images.githubusercontent.com/53713496/66691850-aed17b80-ec6f-11e9-91ec-de087c9c75fc.png)
