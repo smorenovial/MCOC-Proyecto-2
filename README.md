@@ -44,6 +44,8 @@ para obtener el tiempo (en segundos) que se demora el computador en ejecutar el 
 Tiempo por cada numero de particulas:
 - Para dos particulas --> tiempo = 2,671
 
+![graf_2p](https://user-images.githubusercontent.com/53713496/66691879-f5bf7100-ec6f-11e9-84a1-bc7a3cb8cf8f.png)
+
 - Para cinco particulas --> tiempo = 29,564
 
 ![graf_5p](https://user-images.githubusercontent.com/53713496/66691874-e809eb80-ec6f-11e9-9988-d880bf3288bf.png)
