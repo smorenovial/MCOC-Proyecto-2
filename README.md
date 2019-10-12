@@ -42,9 +42,10 @@ Comportamiento del computador con respecto a la variacion del numero de particul
 para obtener el tiempo (en segundos) que se demora el computador en ejecutar el codigo y entregar el grafico, se corrio el codigo para 2,5 ,10 y 20 particulas.
 
 Tiempo por cada numero de particulas:
-- Para dos particulas --> tiempo = 
-- Para cinco particulas --> tiempo = 
-- Para diez particulas --> tiempo = 
+- Para dos particulas --> tiempo = 2,671
+
+- Para cinco particulas --> tiempo = 29,564
+- Para diez particulas --> tiempo = 15,52
 - Para veinte particulas --> tiempo = 
 
 
