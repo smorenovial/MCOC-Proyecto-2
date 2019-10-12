@@ -13,7 +13,7 @@ Entender la influencia de la implementación de algoritmos computacionales, entr
 algoritmos de complejidad computacional y métodos (IO).
 [Meta 3]: implementación del código para una partícula con perfil de velocidad
 
-# RESULTADOS PARA UNA PARTÍCILA:
+# RESULTADOS PARA UNA PARTÍCULA:
 
 Para el estudio del comportamiento de una partícula transportada por un fluido se usaron los siguinetes datos y supuestos:
 * La partícula transportada corresponde a una grano de arena
@@ -69,11 +69,16 @@ Los resultados que nos entrega el codigo no son del todo correctos, ya que en es
    * fuerza de arrastre (drag)
    * fuerza de sustentacion (lift)
    * fuerza boyante
+* fuerzas que se aplican en la realidad:
+   * fuerza de magnus
+   * fuerza de basset
 
 # Mejoras en el rendimiento:
 
 Para el caso de las mejoras del computador con respecto a la velocidad de ejecucion del codigo, podriamos implementar otro tipo de integracion. Para la segunda entrega, el metodo que se utilizo para integrar los parametros de las posiciones y las velocidades fue el metodo de Euler, y para la tercera entrega, el metodo de integracion que se utilizo fue odeint.
-para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva libreria, la cual nos permita integrar mas rapidamente los parametrod de velocidad y posicion de cada particula, para que asi el comoputador sea capaz de procesar los datos mas rapidamente.
+para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva libreria, la cual nos permita integrar mas rapidamente los parametros de velocidad y posicion de cada particula, para que asi el comoputador sea capaz de procesar los datos mas rapidamente.
+
+Los cuellos de botella se producen cuando el computador recorre los ciclos del codigo para ver en que momento ocurren choques entre particulas, y es ahi en donde el computador se demora en porcesar la informacion, lo cual produce que a veces no se pueda obtener resultados. esto lo podemos ver en el caso de 20 particulas, ya que al aumentar el numero de particulas, aumenta la probabilidad de que haya choques entre particulas y es por eso que no es capaz de procesar toda esta informacion en un tiempo prudente.
 
 # Resultados del profesor:
 * Para dos particulas:
