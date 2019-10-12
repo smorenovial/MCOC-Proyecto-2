@@ -75,4 +75,8 @@ Para el caso de las mejoras del computador con respecto a la velocidad de ejecuc
 para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva libreria, la cual nos permita integrar mas rapidamente los parametrod de velocidad y posicion de cada particula, para que asi el comoputador sea capaz de procesar los datos mas rapidamente.
 
 # Resultados del profesor:
+* Para dos particulas:
+* Para dos particulas:
+* Para dos particulas:
+* Para dos particulas:
 
