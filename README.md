@@ -76,7 +76,17 @@ para lograr una mejor ejecucion del codigo final, podriamos utilizar una nueva l
 
 # Resultados del profesor:
 * Para dos particulas:
-* Para dos particulas:
-* Para dos particulas:
-* Para dos particulas:
+
+![graf_2prof](https://user-images.githubusercontent.com/53713496/66692124-c27de180-ec71-11e9-9927-50e9a04d55d9.png)
+
+* Para cinco particulas:
+
+![graf_5prof](https://user-images.githubusercontent.com/53713496/66692129-c9a4ef80-ec71-11e9-876d-f26b245d6a99.png)
+
+* Para diez particulas:
+
+![graf_10prof](https://user-images.githubusercontent.com/53713496/66692131-ce69a380-ec71-11e9-95a8-2f212b1a8dc6.png)
+
+* Para veinte particulas:
+
 
